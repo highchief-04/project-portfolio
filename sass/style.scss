@@ -1,0 +1,243 @@
+nav {
+  background-color: black;
+}
+.header {
+  .head-text {
+    padding-right: 45%;
+    font-family: "Roboto Slab", serif;
+    font-size: 35px;
+    font-weight: 7%;
+    color: white;
+  }
+  a {
+    color: white;
+  }
+}
+/* Media query for small screens */
+@media screen and (max-width: 600px) {
+ 
+ .header {
+    color: rgb(212, 22, 22);
+    
+  }
+}
+.hero-section {
+  padding: 6% 0%;
+  .text {
+    // media query
+    padding-top: 10%;
+    padding-left: 5%;
+    background-color: rgb(248, 248, 248);
+    // animation: ease-in 3000;
+  }
+  h3 {
+    padding: 2%;
+    font-weight: 700;
+  }
+  h1 {
+    font-family: "Roboto Slab", serif;
+    width: 20%;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    width: 60%;
+  }
+  .imgs {
+    background-color: rgb(125, 167, 223);
+  }
+  img {
+    width: 40rem;
+  }
+}
+.about {
+  padding-top: 6%;
+  h2 {
+    font-family: "Roboto Slab", serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 3%;
+    text-align: center;
+  }
+  h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    padding-bottom: 4%;
+    text-align: center;
+  }
+  .nigeria {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  h6 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 3%;
+  }
+  #span1 {
+    color: rgb(125, 167, 223);
+    padding-left: 5%;
+  }
+  .h6 {
+    padding: 3% 10%;
+  }
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  button {
+    height: 60px;
+    width: 200px;
+    background-color: rgb(125, 167, 223);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+.skills {
+  .skillLevel {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+  }
+  span {
+    color: rgb(0, 0, 0);
+    padding-left: 8%;
+  }
+  .skillLevel img {
+    padding-right: 2%;
+  }
+}
+
+.works {
+  opacity: 0;
+  transform: translateY(100%);
+  margin-top: 5%;
+
+  h3 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .pastWorks {
+    text-align: center;
+    padding: 5% 0% 0% 0%;
+  }
+  .pastWorks img:hover {
+    background-color: rgb(29, 93, 177);
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: rgb(125, 167, 223);
+  }
+}
+/* Define the animation */
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the content */
+.works {
+  animation: slideInFromBottom 1.5s ease forwards;
+}
+
+.contact {
+  opacity: 0;
+  transform: translateY(100%);
+  padding-top: 8%;
+  h1 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .contact-message {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+  
+  }
+ #suggestion {
+  font-size: 25px;
+  font-weight: 200;
+  text-align: center;
+
+ }
+ h3{
+  text-align: center;
+  text-decoration-line: underline;
+ }
+ p{
+  font-size: 25px;
+  font-weight: 200;
+  text-align: center;
+ }
+ span{
+  font-weight: 600;
+}
+h4{
+  font-size: 25px;
+  text-align: center;
+  padding: 2%;
+}
+}
+form{
+  text-align: center;
+  input{
+    border: none;
+    border-bottom: solid 1px;
+    height: 30px;
+  }
+  input:hover{
+    border: none;
+    border-bottom: solid 1px;
+    height: 50px;
+  }
+  ::placeholder{
+    text-align: center;
+  }
+  textarea {
+    resize: none;
+    border: none;
+    border-bottom: solid 1px;
+    
+  }
+
+}
+.contact {
+  animation: slideInFromBottom 1.5s ease forwards;
+}
+.icons{
+  text-align: center;
+
+}
+

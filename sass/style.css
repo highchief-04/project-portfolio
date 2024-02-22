@@ -3,7 +3,6 @@ nav {
 }
 
 .header .head-text {
-  padding-right: 45%;
   font-family: "Roboto Slab", serif;
   font-size: 35px;
   font-weight: 7%;
@@ -12,13 +11,10 @@ nav {
 .header a {
   color: white;
 }
-
-/* Media query for small screens */
-@media screen and (max-width: 600px) {
-  .header {
-    color: rgb(212, 22, 22);
-  }
+.header ul {
+  padding-left: 35%;
 }
+
 .hero-section {
   padding: 6% 0%;
 }
@@ -80,7 +76,6 @@ nav {
 }
 .about #span1 {
   color: rgb(125, 167, 223);
-  padding-left: 5%;
 }
 .about .h6 {
   padding: 3% 10%;
@@ -114,7 +109,6 @@ nav {
 }
 .skills span {
   color: rgb(0, 0, 0);
-  padding-left: 8%;
 }
 .skills .skillLevel img {
   padding-right: 2%;
@@ -234,4 +228,62 @@ form textarea {
 
 .icons {
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .header .head-text {
+    padding-right: 0%;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 10%;
+    color: #fff;
+  }
+  .hero-section .text {
+    padding-top: 80px;
+    padding-left: 5%;
+  }
+  .hero-section h3 {
+    font-weight: 700;
+    text-align: center;
+    padding: 2% 0%;
+  }
+  .hero-section h1 {
+    width: 100%;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding: 2% 0%;
+  }
+  .hero-section .title {
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    padding: 2% 0%;
+  }
+  .hero-section img {
+    width: 15rem;
+    padding-top: 80px;
+  }
+  #span1 {
+    padding-left: 0%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .header .head-text {
+    padding-right: 0%;
+    font-family: "Roboto Slab", serif;
+    font-size: 35px;
+    font-weight: 10%;
+    color: #fff;
+  }
+  .hero-section .text {
+    padding-top: 80px;
+    padding-left: 5%;
+  }
+  .hero-section h3 {
+    font-weight: 700;
+    text-align: center;
+    padding: 2% 0%;
+  }
 }/*# sourceMappingURL=style.css.map */

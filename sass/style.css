@@ -130,6 +130,9 @@ nav {
   text-align: center;
   padding: 5% 0% 0% 0%;
 }
+.works .pastWorks img {
+  width: 15rem;
+}
 .works .pastWorks img:hover {
   background-color: rgb(29, 93, 177);
 }
